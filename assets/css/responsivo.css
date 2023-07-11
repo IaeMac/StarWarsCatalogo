@@ -1,0 +1,41 @@
+@media(max-width:1120px){
+    header .logo{
+        max-width: 180px;
+        margin-bottom: 5px;
+    }
+
+
+    .movie-selection{
+        flex-direction: column;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    .movies{
+        margin-top: 20px;
+    }
+
+
+    .movie-list{
+        gap: 10px;
+    }
+
+    .movie-cards{
+        margin-top: 20px;
+    }
+
+    .movie img{
+        width: 20vw;
+    }
+
+    .poster-film{
+        width: 50vw;
+        height: 80vh;
+    }
+
+    .sinopse{
+        width: 80%;
+        font-size: 140%;
+        margin: 20px auto;
+    }
+}

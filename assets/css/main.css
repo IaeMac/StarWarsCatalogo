@@ -1,0 +1,119 @@
+
+/* fontes : font-family: 'Dela Gothic One', cursive;
+            font-family: 'Star Wars', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul{
+    list-style: none;
+}
+
+body::before{
+    content: "";
+    background-image: url(../img/bg-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+
+body{
+    font-family: 'Dela Gothic One', cursive;
+    background-color: #000;
+    color: #fff;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    height: 100px;
+    margin-top: 1%;
+}
+
+.movie-selection{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    min-height: calc(100vh - 152px);
+    justify-content: center;
+}
+
+.selected-movie{
+    display: flex;
+    flex-direction: column;
+    max-height: 650px;
+}
+
+.selected-movie .poster-film{
+    width: 430px;
+    height: 480px;
+}
+
+.movie-title{
+    border-bottom: 2px solid 
+    #f5f785;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+.sinopse{
+    text-align: center;
+    font-size: 22px;
+    line-height: 19px;
+    margin-top: 15px;
+    width: 430px;
+    font-family: 'Agdasima', sans-serif;
+}
+
+
+.movie-cards .movie-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.movie-list img{
+    width: 170px;
+    height: 100%;
+}
+
+
+.movie-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    gap: 20px;
+}
+
+.movie-cards h1{
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f5f785;
+    width: 100%;
+    text-align: center;
+}
+
+.selected{
+    box-shadow: 0px 0px 24px 5px #aafaaa;
+}
+
+
